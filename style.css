@@ -1,0 +1,84 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.final{display: flex;
+flex-direction: row;}
+.container{
+    color: blanchedalmond;
+    background-color: blue;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-nav{display: flex;
+
+}
+li{margin: 20px;}
+
+.article{
+    height: 300px;
+    width: 300px;
+    border-radius: 2%;
+    
+}
+.v1{align-items: flex-start;
+    margin-left: 200px;
+display: flex;
+flex-direction: column;
+}
+
+.article1{display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 6%;
+    border-radius: 5%;
+
+}
+.article1:hover{
+    box-shadow: 0 4px 8px 0 gray;
+    ;
+}
+button{ color: white;
+    background-color: brown;
+    padding: 2%;
+    border-radius: 5px;
+    margin-right: 160px;
+    
+}
+.decr {
+    bottom: -15%;
+    right: 10%;
+}
+
+.incr {
+    bottom: 10%;
+    right: -15%;
+}
+.v2{display: flex;}
+
+.counter {
+    font-weight: bold;}
+.counter2{ font-weight: bold;}
+
+
+
+
+/*panier*************/
+
+
+.pricett{display: flex;}
+
+.mainmenu{ display: flex;
+flex-direction: row;
+
+}
+.final{
+    margin-left: 550px;
+    margin-top: 100px;
+    align-items: center;
+}
+.totalprice{font-weight: bold}
+
+
+
